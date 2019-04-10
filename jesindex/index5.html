@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>myinfo page</title>
+
+
+    <!-- style -->
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style5.css" rel="stylesheet">
+    <link href="pickple/assets/css/swiper.css" rel="stylesheet">
+    <link href="pickple/assets/css/swiper.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="info ">
+        
+        <div class="container clearfix">
+            <div class="header">
+                <span>FRI.MAY 19</span>
+                <h1>What's New</h1>
+                <div class="icon clearfix">
+                    <ul>
+                        <li class="pen"><img src="../jesindex/assets/img/pen (1).png" alt="pen_icon"></li>
+                        <li class="clip"><img src="../jesindex/assets/img/clip@2x.png" alt="clip_icon"></li>
+                        <li class="folder"><img src="../jesindex/assets/img/folder@2x.png" alt="folder_icon"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content1 ">
+            <div class="container clearfix ">
+                <div class="text">
+                    <h2>Projects</h2>
+                    <span><a href="#">SEE ALL</a></span>
+                </div>
+                <div class="slide clearfix">
+                   <div class="swiper-container">
+                       <div class="swiper-wrapper" >
+                            <img class="swiper-slide" src="../jesindex/assets/img/flwer (1).png" alt="folder_icon">
+                            <img class="swiper-slide" src="../jesindex/assets/img/vase (1).png" alt="folder_icon">
+                        </div>
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="content2 ">
+            <div class="container clearfix">
+                <h2>Tasks</h2>
+                <span><a href="#">SEE ALL</a></span>
+                <a href="#"><img src="../jesindex/assets/img/taskbtn (1).png" alt="task"></a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="bom_nav">
+                <div class="container clearfix">
+                    <ul>
+                        <li><a href="#"><img src="../jesindex/assets/img/home (1).png" alt="home"></a></li>
+                        <li><a href="#"><img src="../jesindex/assets/img/button (2).png" alt="button"></a></li>
+                        <li><a href="#"><img src="../jesindex/assets/img/search@2x.png" alt="search"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="pickple/assets/js/swiper.js"></script>
+    <script src="pickple/assets/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1.2,
+            spaceBetween: 15,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+    </script>
+
+
+
+
+</body>
+
+</html>

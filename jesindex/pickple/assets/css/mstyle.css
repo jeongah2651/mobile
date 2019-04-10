@@ -1,0 +1,219 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+#header .header .ham {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 8px;
+}
+
+#header .header .ham:hover {
+    cursor: pointer;
+}
+
+#header .header .ham:after,
+#header .header .ham:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #111;
+    top: 13px;
+}
+
+#header .header .ham:after {
+    width: 17px;
+    top: 22px;
+}
+
+#header .header .cart {
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-top: 22px;
+    margin-right: 8px;
+}
+
+#header .header .cart:hover {
+    cursor: pointer;
+}
+
+#header .header h1 {
+    padding: 14px 0 15px 0;
+    font-family: Typolino;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    border-bottom: solid 1px #afafaf;
+}
+
+
+
+#banner {
+    position: relative;
+    margin-bottom: 11px;
+}
+
+#banner .banner {
+    padding: 36px 46px;
+}
+
+#banner .banner .banner-text h2 {
+    top: 10px;
+    font-family: ChosunilboNM;
+    font-size: 18px;
+    color: #707070;
+    width: 62px;
+    height: 26px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    border: solid 1px #707070;
+}
+#banner .banner .banner-text h2 {box-sizing: border-box; }
+#banner .banner .banner-text h2:hover {
+    background-color: pink; border: 0; color: #fff;
+}
+#banner .banner .banner-text {position: relative;}
+#banner .banner .banner-text ul {
+    display: none; position: absolute; left: 50%; top: 29px; transform: translatex(-50%); width: 150px; box-shadow: 0 0 6px 0 rgba(94, 94, 94, 0.16);  z-index: 100;
+    
+}
+#banner .banner .banner-text li {text-align: center; }
+#banner .banner .banner-text li a {position: relative; 
+    z-index: 1000; font-family: ChosunilboNM; font-weight: bold; display: block;
+ background: #fff; width: 150px; padding: 5px 0;}
+#banner .banner .banner-text li:hover a {color: #000; }
+#banner .banner .banner-text li:hover a:before {
+    
+    position: absolute; content: ''; z-index: 90; z-index: -1;
+    top: 17px; right: 0; width: 100%; height: 2px; background: pink;
+}
+
+
+
+#flower span {
+    display: none;
+}
+
+#flower .flower {
+    margin-bottom: 64px;
+    overflow: hidden;
+    padding: 0 20px;
+    
+}
+.flower div {margin-top: 5%;}
+
+
+#flower .flower p {
+    padding-top: 18px;
+    font-family: ChosunilboNM;
+    font-size: 15px;
+    line-height: 1.33;
+    text-align: center;
+    color: #404040;
+}
+
+#flower .flower .flowers > div {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#support h3 {
+    position: relative;
+    font-family: ErasITC;
+    font-size: 13px;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+}
+
+#support h3:after,
+#support h3:before {
+    content: '';
+    position: absolute;
+    width: 28%;
+    height: 1px;
+    background: #000;
+    top: 10px;
+}
+
+#support h3:after {
+    left: 0;
+}
+
+#support h3:before {
+    right: 0;
+}
+
+#support img {
+    padding: 30px 0;
+    width: 33.3333%;
+    float: right;
+}
+
+#footer {
+    background: #e0acac;
+}
+
+#footer .footer {
+    padding: 30px 24px;
+}
+
+#footer .footer ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+#footer .footer ul li p {
+    font-family: Constantia;
+    font-size: 10px;
+    font-style: italic;
+}
+
+#footer .footer .logo {
+    width: 20px;
+    margin: 0 auto;
+    padding: 35px 0 10px 0;
+}
+
+#footer .footer p {
+    font-family: Lato;
+    font-size: 6px;
+    line-height: 1.17;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*# sourceMappingURL=mstyle.css.map */

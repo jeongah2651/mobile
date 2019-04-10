@@ -1,0 +1,68 @@
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+.row {padding: 0 24px;}
+
+
+/* clearfix */
+.clearfix::before, .clearfix::after {
+    display: block; content:''; clear:both;}
+
+#make { height: 100%; padding-bottom: 30px;}
+
+#make h2 {display: block;  width: 100%; padding: 0;}
+#make em img { width: 50%; margin-top: -90%; margin-left: 25%; padding: 0;}
+
+.content1 h1 {  
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: left;
+    color: #495e54;
+    margin-top: 50px;
+}
+
+.content1 p {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 1.67;
+    text-align: left;
+    color: #8798ad; 
+    margin-top: 27px;
+}
+
+
+.content2 {}
+.content2 h3 a {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.15;
+    letter-spacing: 0.1px;
+    color: #448d68;
+    margin-top: 50px;
+    
+}
+.content2 .btn a {
+    text-align: center;
+    float: right;
+    width: 156.9px;
+    height: 48.3px;
+    line-height: 48.3px;
+    border-radius: 50px;
+    background: #e5c58f;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+    margin-top: 33px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+
+.content2 .btn a:hover {
+    background-color: #ccb182;
+}
+

@@ -1,0 +1,164 @@
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+/* clearfix */
+.clearfix::before, .clearfix::after {
+    display: block; content:''; clear:both;}
+img {width: 80%;}
+
+/* header */
+
+.header {
+    position: relative;
+    height: 150px;
+    border-bottom-left-radius: 30%;
+   background: rgb(166, 204, 186);
+    padding: 32px;
+
+}
+.header span {
+    position: absolute;
+    top: 38px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.92;
+    text-align: left;
+    color: #ffffff;
+}
+.header h1 {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 0.66;
+    letter-spacing: 1.1px;
+    color: #ffffff;
+    top: 70px;
+}
+
+.header .icon .pen  {
+    position: absolute;
+    width: 60px;
+    top: 125px;
+    
+    
+}
+
+.header .icon .clip {
+    position: absolute;
+    width: 50px;
+    top: 135px;
+    right: 100px;
+    
+}
+
+.header .icon .folder {
+    position: absolute;
+    width: 37px;
+    top: 135px;
+    right: 25px;
+    
+}
+
+
+
+/* content1 */
+.content1 {}
+.content1 .text {padding: 32px;}
+.content1 h2 {float: left;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    color: #495e54;
+    margin-top: 25px;
+}
+.content1 span a {
+    float: right;
+    margin-top: 35px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 2.08;
+    letter-spacing: 0.6px;
+    color: #70a88c;
+}
+
+.content1 span a:hover {color: dimgray}
+
+
+.content2 {text-align: center; position: relative; padding-bottom: 120px; }
+.content2 h2 {
+    padding-left: 24px;
+    float: left;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    color: #495e54;
+    margin-top: 20px;
+}
+.content2 span a {
+    padding-right: 24px;
+    float: right;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 2.08;
+    letter-spacing: 0.6px;
+    color: #70a88c;
+}
+
+.content2 span a:hover {color: dimgray }
+
+.content2 img {margin-top: 20px; width: 100%; z-index: 90; }
+
+.bom_nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px;
+    margin-top: 36px;
+    width: 100%;
+    box-shadow: 0 0 6px 0 rgba(94, 94, 94, 0.16);
+    background-color: #ffffff;
+    border-radius: 50px 50px 0 0 ;
+    box-sizing: border-box;
+}
+.bom_nav ul li {
+    float:left;width: 33.3333%; 
+    text-align: center; 
+    margin-top: 20.5px;
+}
+.bom_nav ul li:first-child img {width: 38px;}
+.bom_nav ul li:nth-child(2) img {width: 44px;}
+.bom_nav ul li:nth-child(3) img {width: 34px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

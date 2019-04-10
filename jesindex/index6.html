@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Discover page</title>
+
+
+    <!-- style -->
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style6.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="pickple/assets/css/swiper.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="pickple/assets/css/swiper.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="info">
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header">
+                        <div class="row">
+                            <div class="menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <h3>Traveling</h3>
+                            <div class="bell "><a href="#"><img src="assets/img/bell@2x.png" alt="sidelist"></a></div>
+                            <div class="search"><a href="#"><img src="assets/img/search2@2x.png" alt="sidelist"></a></div>
+                            <div class="dot"><a href="#"><span></span></a></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- header -->
+
+
+        <div class="line"></div>
+        <!-- line -->
+
+        <div id="content1">
+            <div class="container">
+                <div class="row">
+                    <div class="content1">
+                        <h2>Pick a category for<br>your next adventure</h2>
+                        <h3>Popular <i class="fas fa-chevron-down"></i></h3>
+                        <span class="p_line1"></span>
+                        <span class="p_line2"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content1 -->
+        
+        <div class="line2"><div class="container"><span></span></div></div>
+        <!-- line -->
+
+
+       <div id="content2">
+           <div class="container">
+               <div class="row">
+                   <div class="content2">
+                       <h2>Featured</h2>
+                       <span>See all <i class="fas fa-chevron-right"></i></span>
+                       <div class="images">
+                           <div class="slide clearfix">
+                               <div class="swiper-container">
+                                   <div class="swiper-wrapper" >
+                                        <img class="swiper-slide" src="assets/img/1@2x.png" alt="folder_icon">
+                                        <img class="swiper-slide" src="assets/img/2@2x.png" alt="folder_icon">
+                                        <img class="swiper-slide" src="assets/img/1@2x.png" alt="folder_icon">
+                                        <img class="swiper-slide" src="assets/img/2@2x.png" alt="folder_icon">
+                                    </div>
+                               </div>
+                            </div>
+                            
+                       </div>
+                       <div class="line"></div>
+                   </div>
+               </div>
+           </div>
+       </div>
+        <!-- content2 -->
+        
+
+        <!-- popup -->
+        <div class="popup">
+            <div>
+                <h2><strong>We sent you an email!</strong></h2>
+                <p>I have emailed you with a list of things you might like.</p>
+                <button class="close">Close</button>
+            </div>
+        </div>
+        
+        <!-- search -->
+        <div class="wrap_search">
+            <div class="searchin">
+                <input type="text" class="searchTerm" placeholder="  검색"/>
+                <span class="searchButton">
+                <i class="fa fa-search"></i>
+                </span>
+                <a href="#"><i class="fas fa-times"></i></a>
+                
+                
+           </div>
+        </div>
+        
+
+
+
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="pickple/assets/js/swiper.js"></script>
+    <script src="pickple/assets/js/swiper.min.js"></script>
+    <script>
+      
+
+    $(".close").click(function(){
+        $(".popup").hide();
+    })
+                
+    $(".bell").click(function(){
+        $(".popup").show();
+    })
+        
+    $(".bell").click(function(){
+    $(".dot").css("display","none");
+    })
+        
+    $(".search").click(function(){
+        $(".wrap_search").show();
+    })
+                
+    $(".fa-times").click(function(){
+        $(".wrap_search").hide();
+    })
+        
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1.2,
+        spaceBetween: 15,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
